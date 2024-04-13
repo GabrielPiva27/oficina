@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/tabela.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header> <!-- área de cabeçalho -->
         <nav> <!-- área de navegação -->
@@ -32,15 +34,14 @@
         <input type="tel" id="placa" name="placa" pattern="[A-Za-z]{3}-\d{4}" placeholder="ABC-1234" required>
 
         <label for="dataServ">Data do Serviço:</label>
-        <input type="date" id="dataServ" name="dataServ" required/>
+        <input type="date" id="dataServ" name="dataServ" required />
 
         <label for="valorServ">Valor do Serviço:</label>
-        <input type="number" id="valorServ" name="valorServ'" required
-               min="0" max="99999" step="0.01" />
+        <input type="number" id="valorServ" name="valorServ'" required min="0" max="99999" step="0.01" />
 
         <div class="form-group">
             <label>Serviços Prestados</label>
-            <textarea class="input-control" id="servPrestado"></textarea>
+            <textarea class="input-control" id="servicoPrestado"></textarea>
         </div>
 
         <div class="form-group">
@@ -66,4 +67,5 @@
 
     <script src="js/veiculo.js"></script>
 </body>
+
 </html>

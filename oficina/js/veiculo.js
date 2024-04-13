@@ -103,7 +103,7 @@ class Veiculo {
         };
         cancelarButton.onclick = () => {
             // Limpar os campos ao cancelar
-            veiculo.limpa();
+            this.limpa();
         };
     }
 

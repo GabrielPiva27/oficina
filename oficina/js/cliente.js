@@ -192,6 +192,6 @@ document.getElementById('salvar').addEventListener('click', (event) => {
 });
 
 //Carregar a listagem no momento que carregar a página
-window.onload = function(){
+window.onload = function () {
     cliente.lista()
 }
